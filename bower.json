@@ -1,0 +1,42 @@
+{
+  "name": "gold-elements",
+  "version": "0.9.2",
+  "homepage": "https://github.com/PolymerElements/gold-elements",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "description": "The gold elements are built for e-commerce use-cases like checkout flows.",
+  "main": "gold-elements.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "google",
+    "ecommerce",
+    "checkout"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gold-cc-cvc-input": "PolymerElements/gold-cc-cvc-input#^0.9.0",
+    "gold-cc-expiration-input": "PolymerElements/gold-cc-expiration-input#^0.9.0",
+    "gold-cc-input": "PolymerElements/gold-cc-input#^0.9.0",
+    "gold-email-input": "PolymerElements/gold-email-input#^0.9.0",
+    "gold-phone-input": "PolymerElements/gold-phone-input#^0.9.0",
+    "gold-zip-input": "PolymerElements/gold-zip-input#^0.9.0"
+  },
+  "devDependencies": {
+    "polymer": "Polymer/polymer#^0.9.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
+    "paper-button": "PolymerElements/paper-button#^0.9.0",
+    "paper-dialog": "PolymerElements/paper-dialog#^0.9.0",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^0.9.0",
+    "paper-input": "PolymerElements/paper-input#^0.9.0",
+    "iron-form": "PolymerElements/iron-form#^0.9.0"
+  }
+}
