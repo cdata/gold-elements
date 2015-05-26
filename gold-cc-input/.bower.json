@@ -1,6 +1,6 @@
 {
   "name": "gold-cc-input",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "A credit card input field",
   "authors": [
     "The Polymer Authors"
@@ -23,6 +23,7 @@
   "ignore": [],
   "dependencies": {
     "iron-validator-behavior": "PolymerElements/iron-validator-behavior#^0.9.0",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^0.9.0",
     "iron-icon": "PolymerElements/iron-icon#^0.9.0",
     "paper-input": "PolymerElements/paper-input#^0.9.0",
     "paper-styles": "PolymerElements/paper-styles#^0.9.0",
@@ -35,11 +36,11 @@
     "web-component-tester": "*",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "_release": "0.9.3",
+  "_release": "0.9.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.9.3",
-    "commit": "60676ffd8faa72eac11e5a04258080ba1d7914cf"
+    "tag": "v0.9.4",
+    "commit": "dd534429d9487ca29be68705f5f29db931be5918"
   },
   "_source": "git://github.com/PolymerElements/gold-cc-input.git",
   "_target": "^0.9.0",

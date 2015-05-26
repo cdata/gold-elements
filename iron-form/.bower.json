@@ -1,6 +1,6 @@
 {
   "name": "iron-form",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "authors": [
     "The Polymer Authors"
   ],
@@ -31,13 +31,14 @@
     "web-component-tester": "*",
     "webcomponentsjs": "^0.7.0",
     "paper-input": "PolymerElements/paper-input#^0.9.0",
-    "paper-button": "PolymerElements/paper-button#^0.9.0"
+    "paper-button": "PolymerElements/paper-button#^0.9.0",
+    "paper-styles": "PolymerElements/paper-styles#^0.9.0"
   },
-  "_release": "0.9.0",
+  "_release": "0.9.1",
   "_resolution": {
     "type": "version",
-    "tag": "v0.9.0",
-    "commit": "9d6f8bc1ef27b8ae7625a5fdc74da8dab82d3c15"
+    "tag": "v0.9.1",
+    "commit": "0d8155b36b99d3accf2dc8fbd4fcf4a1f65aedcb"
   },
   "_source": "git://github.com/PolymerElements/iron-form.git",
   "_target": "^0.9.0",

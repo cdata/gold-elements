@@ -1,6 +1,6 @@
 {
   "name": "gold-email-input",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "An email input field",
   "authors": [
     "The Polymer Authors"
@@ -25,6 +25,7 @@
   "ignore": [],
   "dependencies": {
     "iron-validator-behavior": "PolymerElements/iron-validator-behavior#^0.9.0",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^0.9.0",
     "iron-icon": "PolymerElements/iron-icon#^0.9.0",
     "paper-input": "PolymerElements/paper-input#^0.9.0",
     "paper-styles": "PolymerElements/paper-styles#^0.9.0",
@@ -37,11 +38,11 @@
     "web-component-tester": "*",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "_release": "0.9.3",
+  "_release": "0.9.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.9.3",
-    "commit": "d4b1a782dd67c7812a1039481352404964095bd8"
+    "tag": "v0.9.4",
+    "commit": "91850b63cbdfd2c4ec190d7bbaa85d60fcaf09f0"
   },
   "_source": "git://github.com/PolymerElements/gold-email-input.git",
   "_target": "^0.9.0",
