@@ -1,13 +1,12 @@
 {
   "name": "gold-email-input",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "An email input field",
   "authors": [
     "The Polymer Authors"
   ],
   "keywords": [
     "web-components",
-    "web-component",
     "polymer",
     "gold",
     "input"

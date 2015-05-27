@@ -1,13 +1,12 @@
 {
   "name": "gold-zip-input",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "An input field for a zip code",
   "authors": [
     "The Polymer Authors"
   ],
   "keywords": [
     "web-components",
-    "web-component",
     "polymer",
     "gold",
     "input"
@@ -38,11 +37,11 @@
     "web-component-tester": "*",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "_release": "0.9.4",
+  "_release": "0.9.5",
   "_resolution": {
     "type": "version",
-    "tag": "v0.9.4",
-    "commit": "48e7feb09db43ff6af27bc12960c2b185e27667f"
+    "tag": "v0.9.5",
+    "commit": "bcdf993212a757d1ac697a0aaabe4449babfe748"
   },
   "_source": "git://github.com/PolymerElements/gold-zip-input.git",
   "_target": "^0.9.0",
