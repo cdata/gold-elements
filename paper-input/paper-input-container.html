@@ -201,6 +201,11 @@ This element is `display:block` by default, but you can set the `inline` attribu
       @apply(--paper-input-container-input);
     }
 
+    /* Firefox sets a min-width on the input, which can cause layout issues */
+    .input-content ::content input {
+      min-width: 0;
+    }
+
     .input-content ::content textarea {
       resize: none;
     }
@@ -285,6 +290,7 @@ This element is `display:block` by default, but you can set the `inline` attribu
        * changes if auto-validating, or when the `iron-input-valid` event is heard from a child.
        */
       invalid: {
+        observer: '_invalidChanged',
         type: Boolean,
         value: false
       },
@@ -426,7 +432,12 @@ This element is `display:block` by default, but you can set the `inline` attribu
 
     _onIronInputValidate: function(event) {
       this.invalid = this._inputElement.invalid;
-      this.updateAddons({invalid: this.invalid});
+    },
+
+    _invalidChanged: function() {
+      if (this._addons) {
+        this.updateAddons({invalid: this.invalid});
+      }
     },
 
     /**

@@ -1,6 +1,6 @@
 {
   "name": "gold-email-input",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "An email input field",
   "authors": [
     "The Polymer Authors"
@@ -37,11 +37,11 @@
     "web-component-tester": "*",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "_release": "0.9.5",
+  "_release": "0.9.6",
   "_resolution": {
     "type": "version",
-    "tag": "v0.9.5",
-    "commit": "b8464edcb6668e851b0db525f0b50a3b82491e21"
+    "tag": "v0.9.6",
+    "commit": "fa9ff1c89f48b9e28413af18b971a96dd39a5f45"
   },
   "_source": "git://github.com/PolymerElements/gold-email-input.git",
   "_target": "^0.9.0",

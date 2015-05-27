@@ -1,6 +1,6 @@
 {
   "name": "gold-cc-expiration-input",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "A validating input for a credit card expiration date",
   "authors": [
     "The Polymer Authors"
@@ -37,11 +37,11 @@
     "web-component-tester": "*",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   },
-  "_release": "0.9.4",
+  "_release": "0.9.5",
   "_resolution": {
     "type": "version",
-    "tag": "v0.9.4",
-    "commit": "0297712f957fbb97a096261f5343cac250ed5c28"
+    "tag": "v0.9.5",
+    "commit": "d4f465e230ac5a74bd251d667ca1f4ea22c277fe"
   },
   "_source": "git://github.com/PolymerElements/gold-cc-expiration-input.git",
   "_target": "^0.9.0",
